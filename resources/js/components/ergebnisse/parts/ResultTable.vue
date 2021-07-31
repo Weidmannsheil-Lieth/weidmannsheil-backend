@@ -1,0 +1,100 @@
+<template>
+    <v-data-table
+        :loading="isLoading"
+        :headers="headers"
+        :items="items"
+        :footer-props="footerProps"
+        :no-data-text="'Es wurden keine Ergebnisse gefunden.'"
+        disable-sort
+        dense
+    >
+        <template #item.target="{ item }">
+            {{ getPreview(item.contentAction) }}
+        </template>
+
+        <template v-slot:item.actions="{ item }">
+            <v-btn
+                color="primary"
+                small
+                @click="edit(item)"
+                icon
+            >
+                <v-icon small>
+                    fa-pen
+                </v-icon>
+            </v-btn>
+            <delete-button
+                :item="item"
+                url="results"
+                @reload="reload"
+            />
+        </template>
+    </v-data-table>
+</template>
+
+<script>
+import DeleteButton from "./../../global/DeleteButton";
+
+export default {
+    components: {DeleteButton},
+    props: {
+        items: {
+            type: Array,
+            required: true,
+            default: () => []
+        },
+        isLoading: {
+            type: Boolean,
+            required: true
+        }
+    },
+    data() {
+        return {
+            options: this.value,
+            footerProps: {
+                itemsPerPageOptions: [10, 20, 30]
+            },
+            headers: [
+                {
+                    text: 'Kategorie',
+                    value: 'category'
+                },
+                {
+                    text: 'Name',
+                    value: 'name'
+                },
+                {
+                    text: 'Datei / Weiterleitung',
+                    value: 'target'
+                },
+                {
+                    text: 'Aktionen',
+                    value: 'actions'
+                }
+            ]
+        };
+    },
+    watch: {
+        options: {
+            deep: true,
+            handler() {
+                this.$emit('input', this.options);
+            }
+        }
+    },
+    methods: {
+        reload() {
+            this.$emit('reload');
+        },
+        getPreview(content) {
+            if (content.length <= 50) {
+                return content;
+            }
+            return content.slice(0, 50) + '...';
+        },
+        edit(item) {
+            this.$emit('edit', item);
+        }
+    }
+}
+</script>

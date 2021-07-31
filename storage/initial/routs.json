@@ -1,0 +1,596 @@
+[
+    {
+        "year": 2019,
+        "king": "Daniela Vollstedt",
+        "first_knight": "Lennard Nickel",
+        "second_knight": "Sabine Nickel",
+        "youth_king": "Julika Merz",
+        "citizen_king": "Frank Trieder",
+        "citizen_youth_king": "Eric Ader"
+    },
+    {
+        "year": 2018,
+        "king": "Jens Grüger",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Oliver Vollborn",
+        "citizen_king": "Tobias Stehr",
+        "citizen_youth_king": "Sabrina Stehr"
+    },
+    {
+        "year": 2017,
+        "king": "Ingrid Cords",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Jan Schlüter",
+        "citizen_king": "Thomas Stehr",
+        "citizen_youth_king": "Marco Trieder"
+    },
+    {
+        "year": 2016,
+        "king": "Birgitta Grube",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Julika Merz",
+        "citizen_king": "Andrea Trieder",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2015,
+        "king": "Kathrin Heilmann",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Nick Gawlick",
+        "citizen_king": "Silvia Stehr",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2014,
+        "king": "Klaus Wilke",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Lennard Nickel",
+        "citizen_king": "Frank Trieder",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2013,
+        "king": "Klaus Wilke",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Lennard Nickel",
+        "citizen_king": "Frank Trieder",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2012,
+        "king": "Manfred Rohde",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Annabell Westphal",
+        "citizen_king": "Andrea Trieder",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2011,
+        "king": "Ingrid Cords",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Ann-Katrin Nickel",
+        "citizen_king": "Carl-Ludwig Aue",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2010,
+        "king": "Daniela Vollstedt",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Annabell Westphal",
+        "citizen_king": "Thomas Stehr",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2009,
+        "king": "Manfred Rohde",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Ann-Katrin Nickel",
+        "citizen_king": "Christian Dührkop",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2008,
+        "king": "Olaf Hilbinger",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Lennard Nickel",
+        "citizen_king": "Rolf Kiehn",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2007,
+        "king": "Klaus Wilke",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Daniela Kunstmann",
+        "citizen_king": "Bernd Stehr",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2006,
+        "king": "Jürgen Cords",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Corinna Kunstmann",
+        "citizen_king": "Traute Aue",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2005,
+        "king": "Kathrin Heilmann",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Arne Luitjens",
+        "citizen_king": "Walter Kulass",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2004,
+        "king": "Wolfgang Vollstedt",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Sabrina Müller",
+        "citizen_king": "Carl-Ludwig Aue",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2003,
+        "king": "Karl-Heinz Alf",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Phillipp Lohse",
+        "citizen_king": "Rüdiger Quast",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2002,
+        "king": "Ericht Wittern",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Jan Buchholz",
+        "citizen_king": "Sylvia Stehr",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2001,
+        "king": "Karin Lange",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Christopher Schmidt",
+        "citizen_king": "Jan Heilmann",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 2000,
+        "king": "Ingrid Cords",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Patricia Vollstedt",
+        "citizen_king": "Bernhard Adrian",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1999,
+        "king": "Jürgen Cords",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Christian Mohrdieck",
+        "citizen_king": "Birgit Bendt",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1998,
+        "king": "---",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Anika Mohrdieck",
+        "citizen_king": "Torsten Borbe",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1997,
+        "king": "Klaus Wilke",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Patricia Vollstedt",
+        "citizen_king": "Theodor Stüben Jr.",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1996,
+        "king": "Peter Göttsch",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Nicole Schättiger",
+        "citizen_king": "Andrea Edelmann",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1995,
+        "king": "Wilfried Mohr",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Sven Schättiger",
+        "citizen_king": "Andrea Leutsch",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1994,
+        "king": "Hannelore Kunstmann",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Anika Lange",
+        "citizen_king": "Ralf Edelmann",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1993,
+        "king": "Jürgen Lange",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Jessica Mohrdieck",
+        "citizen_king": "Hans Borbe",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1992,
+        "king": "Helmut Lange",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Nico Tschischka",
+        "citizen_king": "Thomas Thiedemann",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1991,
+        "king": "Martina Werner",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Joachim Cords",
+        "citizen_king": "Willi Aue",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1990,
+        "king": "Herbert Maack",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Björn Menzel",
+        "citizen_king": "Bernd Kohnke",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1989,
+        "king": "Bodo Kunstmann",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Carmen Lohmann",
+        "citizen_king": "Hans Werner Finnern",
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1988,
+        "king": "Ralf Weers",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Andrea Mohr",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1987,
+        "king": "Carsten Schüssler",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Carola Dobbratz",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1986,
+        "king": "Hannelore Kunstmann",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Grit Benkner",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1985,
+        "king": "Rolf Weers",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Olaf Will",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1984,
+        "king": "Bruno Carstensen",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Heino Schlüter",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1983,
+        "king": "Leo Wegner",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Corinna Hörster",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1982,
+        "king": "Herbert Maack",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Marco Kock",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1981,
+        "king": "Theodor Stüben",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Marco Steinbring",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1980,
+        "king": "Hans-Heinrich Clausen",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Angela Steinbring",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1979,
+        "king": "Erich Plauschinat",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Jens Mohr",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1978,
+        "king": "Heinz Dähmlow",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Ulrike Wittern",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1977,
+        "king": "Horst Grugel",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Barbara Paulsen",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1976,
+        "king": "Wilhelm Mohrdieck",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Bodo Hippler",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1975,
+        "king": "Ewald Hoffmann",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Ralf Rudek",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1974,
+        "king": "Walter Froehlich",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Jürgen Grugel",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1973,
+        "king": "Dieter Zipper",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Holger Dähmlow",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1972,
+        "king": "Heinz Dähmlow",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Gerd Struve",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1971,
+        "king": "Werner Schinckel",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Klaus Jürgen Mohrdieck",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1970,
+        "king": "Theodor Stüben",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Hans-Heinr. Wittenhagen",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1969,
+        "king": "Heinz Dölling",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Christian Stüben",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1968,
+        "king": "Wilhelm Käckenhoff",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Jürgen Grugel",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1967,
+        "king": "Herbert Biere",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Bernd Stahl",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1966,
+        "king": "Erich Podack",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Michael Kujath",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1965,
+        "king": "Heinz Dölling",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": "Gerd Struve",
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1964,
+        "king": "Hans Hamann",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": null,
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1963,
+        "king": "Harry Drews",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": null,
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1962,
+        "king": "Karl-Heinz Hof",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": null,
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1961,
+        "king": "Wilfried Mohr",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": null,
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1960,
+        "king": "Walter Hof",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": null,
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1959,
+        "king": "Jürger Hammermann",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": null,
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1958,
+        "king": "Alfred Rasmussen",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": null,
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1957,
+        "king": "Franz Czernewitz",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": null,
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1956,
+        "king": "Bruno Carstensen",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": null,
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1955,
+        "king": "Hans Hammermann",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": null,
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    },
+    {
+        "year": 1954,
+        "king": "Georg Hesebeck",
+        "first_knight": null,
+        "second_knight": null,
+        "youth_king": null,
+        "citizen_king": null,
+        "citizen_youth_king": ""
+    }
+]
