@@ -15,6 +15,6 @@ class NewsController extends Controller
      */
     public function index(): AnonymousResourceCollection
     {
-        return NewsResource::collection(News::orderBy('id', 'desc')->get());
+        return NewsResource::collection(News::orderBy('priority', 'desc')->get());
     }
 }

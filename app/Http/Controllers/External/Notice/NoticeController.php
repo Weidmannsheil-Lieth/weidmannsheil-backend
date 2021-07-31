@@ -15,6 +15,6 @@ class NoticeController extends Controller
      */
     public function index(): AnonymousResourceCollection
     {
-        return NoticeResource::collection(Notice::orderBy('id', 'desc')->get());
+        return NoticeResource::collection(Notice::orderBy('priority', 'desc')->get());
     }
 }
