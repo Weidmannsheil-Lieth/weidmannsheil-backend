@@ -16,38 +16,48 @@ class AssetSeeder extends BaseSeeder
         return [
             [
                 'name' => 'Satzung',
-                'path' => 'downloads/Satzung.pdf',
+                'path' => '/downloads/Satzung.pdf',
                 'mime' => 'application/pdf'
             ],
             [
                 'name' => 'Einwilligung Datenschutz',
-                'path' => 'downloads/Einwilligung-Datenschutz.pdf',
+                'path' => '/downloads/Einwilligung-Datenschutz.pdf',
                 'mime' => 'application/pdf'
             ],
             [
                 'name' => 'Einwilligung Datenschutz Unternehmen',
-                'path' => 'downloads/Einwilligung-Datenschutz-Unternehmen.pdf',
+                'path' => '/downloads/Einwilligung-Datenschutz-Unternehmen.pdf',
                 'mime' => 'application/pdf'
             ],
             [
                 'name' => 'Probetraining Jugend',
-                'path' => 'downloads/Probetraining-Jugend.pdf',
+                'path' => '/downloads/Probetraining-Jugend.pdf',
                 'mime' => 'application/pdf'
             ],
             [
                 'name' => 'Aufnahmeantrag',
-                'path' => 'downloads/Aufnahmeantrag.pdf',
+                'path' => '/downloads/Aufnahmeantrag.pdf',
                 'mime' => 'application/pdf'
             ],
             [
                 'name' => 'Anhang Jugendliche Aufnahmeantrag',
-                'path' => 'downloads/Anhang-Jugendliche-Aufnahmeantrag.pdf',
+                'path' => '/downloads/Anhang-Jugendliche-Aufnahmeantrag.pdf',
                 'mime' => 'application/pdf'
             ],
             [
                 'name' => 'SEPA',
-                'path' => 'downloads/SEPA.pdf',
+                'path' => '/downloads/SEPA.pdf',
                 'mime' => 'application/pdf'
+            ],
+            [
+                'name' => 'Gespann',
+                'path' => '/rout.jpg',
+                'mime' => 'image/jpeg'
+            ],
+            [
+                'name' => 'Jugendgespann',
+                'path' => '/rout-youth.jpg',
+                'mime' => 'image/jpeg'
             ]
         ];
     }

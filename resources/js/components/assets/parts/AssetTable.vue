@@ -96,7 +96,7 @@ export default {
             this.$emit('reload');
         },
         showAsset(path) {
-            window.open('/assets/' + path, '_blank');
+            window.open('/assets' + path, '_blank');
         }
     }
 }
