@@ -15,13 +15,13 @@ class UserSeeder extends BaseSeeder
     protected function getData(): array
     {
         return [
-            /*[
+            [
                 'abbreviation' => 'WB',
                 'username'     => 'webmaster',
                 'name'         => "Webmaster",
                 'email'        => "webmaster@weidmannsheil-lieth.de",
                 'password'     => Hash::make('change')
-            ]*/
+            ]
         ];
     }
 }

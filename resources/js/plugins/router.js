@@ -52,6 +52,12 @@ const routes = [
         meta: {auth: true}
     },
     {
+        path: '/assets',
+        name: 'assets',
+        component: () => import('./../components/assets/index.vue'),
+        meta: {auth: true}
+    },
+    {
         path: '/login',
         name: 'login',
         component: () => import('./../components/login/index.vue'),

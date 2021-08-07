@@ -103,6 +103,11 @@ export default {
                     icon: 'fa-envelope',
                     name: 'Webmail',
                     page: 'mail'
+                },
+                {
+                    icon: 'fa-file',
+                    name: 'Statische Inhalte',
+                    page: 'assets'
                 }
             ],
         }

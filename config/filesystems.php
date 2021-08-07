@@ -50,6 +50,11 @@ return [
             'root'   => public_path('ergebnisse')
         ],
 
+        'assets' => [
+            'driver' => 'local',
+            'root'   => public_path('assets')
+        ],
+
         'public' => [
             'driver'     => 'local',
             'root'       => storage_path('app/public'),

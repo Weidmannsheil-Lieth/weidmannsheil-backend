@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Internal\ActivityLog\ActivityLogController;
 use App\Http\Controllers\Internal\Administration\AdministrationController;
+use App\Http\Controllers\Internal\Asset\AssetController;
 use App\Http\Controllers\Internal\Auth\AuthController;
 use App\Http\Controllers\Internal\Dashboard\DashboardController;
 use App\Http\Controllers\Internal\GalleryAlbum\GalleryAlbumController;
@@ -138,5 +139,13 @@ Route::group(['prefix' => 'internal', 'middleware' => 'auth:api'], static functi
     Route::group(['prefix' => 'mail'], static function () {
         Route::post('', [MailController::class, 'send']);
         Route::get('receiver-preview', [MailController::class, 'receiverPreview']);
+    });
+
+    /*
+     * Asset
+     */
+    Route::group(['prefix' => 'assets'], static function () {
+        Route::get('', [AssetController::class, 'index']);
+        Route::post('{asset}', [AssetController::class, 'update']);
     });
 });
