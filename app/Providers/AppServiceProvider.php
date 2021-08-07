@@ -3,8 +3,10 @@
 namespace App\Providers;
 
 use App\Models\Administration;
+use App\Models\Asset;
 use App\Models\GalleryAlbum;
 use App\Models\GalleryImage;
+use App\Models\MailReceiverGroup;
 use App\Models\News;
 use App\Models\Notice;
 use App\Models\Result;
@@ -31,12 +33,14 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Administration::observe(ActivityObserver::class);
+        Asset::observe(ActivityObserver::class);
         GalleryAlbum::observe(ActivityObserver::class);
         GalleryImage::observe(ActivityObserver::class);
+        MailReceiverGroup::observe(ActivityObserver::class);
         News::observe(ActivityObserver::class);
         Notice::observe(ActivityObserver::class);
         Result::observe(ActivityObserver::class);
         Rout::observe(ActivityObserver::class);
-        Administration::observe(ActivityObserver::class);
     }
 }
