@@ -6,12 +6,12 @@ use App\Models\Redirect;
 
 class RedirectSeeder extends BaseSeeder
 {
-    protected function getClass(): string
-    {
-        return Redirect::class;
-    }
+    protected string $model = Redirect::class;
+    protected array $keys = [
+        'id'
+    ];
 
-    protected function getData(): array
+    protected function data(): array
     {
         return [
             [

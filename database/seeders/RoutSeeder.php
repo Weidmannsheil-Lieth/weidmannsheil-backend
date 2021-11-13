@@ -8,12 +8,12 @@ use Illuminate\Support\Facades\Storage;
 
 class RoutSeeder extends BaseSeeder
 {
-    protected function getClass(): string
-    {
-        return Rout::class;
-    }
+    protected string $model = Rout::class;
+    protected array $keys = [
+        'year'
+    ];
 
-    protected function getData(): array
+    protected function data(): array
     {
         try {
             $json = Storage::disk('initial')->get('routs.json');

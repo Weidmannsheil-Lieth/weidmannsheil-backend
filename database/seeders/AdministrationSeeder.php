@@ -6,12 +6,12 @@ use App\Models\Administration;
 
 class AdministrationSeeder extends BaseSeeder
 {
-    protected function getClass(): string
-    {
-        return Administration::class;
-    }
+    protected string $model = Administration::class;
+    protected array $keys = [
+        'email'
+    ];
 
-    protected function getData(): array
+    protected function data(): array
     {
         return [
             [

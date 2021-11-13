@@ -6,12 +6,12 @@ use App\Models\Asset;
 
 class AssetSeeder extends BaseSeeder
 {
-    protected function getClass(): string
-    {
-        return Asset::class;
-    }
+    protected string $model = Asset::class;
+    protected array $keys = [
+        'name'
+    ];
 
-    protected function getData(): array
+    protected function data(): array
     {
         return [
             [

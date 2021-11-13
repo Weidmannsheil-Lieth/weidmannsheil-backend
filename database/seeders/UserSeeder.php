@@ -7,12 +7,12 @@ use Illuminate\Support\Facades\Hash;
 
 class UserSeeder extends BaseSeeder
 {
-    protected function getClass(): string
-    {
-        return User::class;
-    }
+    protected string $model = User::class;
+    protected array $keys = [
+        'username'
+    ];
 
-    protected function getData(): array
+    protected function data(): array
     {
         return [
             [

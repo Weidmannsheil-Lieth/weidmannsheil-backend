@@ -6,25 +6,57 @@ use Illuminate\Database\Seeder;
 
 abstract class BaseSeeder extends Seeder
 {
-        /**
+    protected string $model;
+    protected array $keys = [];
+
+    /**
      * Run the database seeds.
      *
      * @return void
      */
     public function run()
     {
-        foreach ($this->getData() as $data) {
-            $this->getClass()::firstOrCreate($data);
+        foreach ($this->data() as $data) {
+            /** @noinspection PhpUndefinedMethodInspection */
+            $this->model::firstOrCreate(
+                $this->getKeyData($data),
+                $this->getAdditionalData($data)
+            );
         }
     }
 
     /**
-     * @return string
-     */
-    abstract protected function getClass(): string;
-
-    /**
      * @return array
      */
-    abstract protected function getData(): array;
+    abstract protected function data(): array;
+
+    /**
+     * @param array $data
+     * @return array
+     */
+    private function getKeyData(array $data): array
+    {
+        $array = [];
+        foreach ($data as $key => $value) {
+            if (in_array($key, $this->keys)) {
+                $array[$key] = $value;
+            }
+        }
+        return $array;
+    }
+
+    /**
+     * @param array $data
+     * @return array
+     */
+    private function getAdditionalData(array $data): array
+    {
+        $array = [];
+        foreach ($data as $key => $value) {
+            if (!in_array($key, $this->keys)) {
+                $array[$key] = $value;
+            }
+        }
+        return $array;
+    }
 }
