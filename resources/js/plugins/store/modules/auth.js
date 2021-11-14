@@ -1,4 +1,5 @@
 import axios from "../../axios";
+import router from "../../router";
 
 const state = {
     isAuth: !!localStorage.getItem('isAuth'),
@@ -60,10 +61,16 @@ const actions = {
                 axios.get('/auth')
                     .then(response => {
                         commit('SET_USER', response.data.user);
-                        commit('SET_API_TOKEN', response.data.user.apiToken)
+                        commit('SET_API_TOKEN', response.data.user.apiToken);
                         resolve(response);
                     })
                     .catch(error => {
+                        commit('UNSET_AUTH');
+                        router.push({name: 'Login'})
+                            .catch(() => {
+                                // such emptiness
+                            })
+
                         reject(error);
                     });
             } else {
