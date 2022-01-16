@@ -58,6 +58,11 @@ class AssetSeeder extends BaseSeeder
                 'name' => 'Jugendgespann',
                 'path' => '/rout-youth.jpg',
                 'mime' => 'image/jpeg'
+            ],
+            [
+                'name' => 'Kalender',
+                'path' => '/downloads/Kalender.pdf',
+                'mime' => 'application/pdf'
             ]
         ];
     }
