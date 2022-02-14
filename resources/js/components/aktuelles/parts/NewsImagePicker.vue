@@ -111,7 +111,7 @@ export default {
             this.dialog = false;
         },
         getImageUrl(index) {
-            return 'https://staging.weidmannsheil-lieth.de/assets/aktuelles/' + index + '.jpg';
+            return process.env.MIX_APP_URL + '/assets/aktuelles/' + index + '.jpg';
         },
         setUrlToCustomUrl() {
             this.url = this.customUrl;
