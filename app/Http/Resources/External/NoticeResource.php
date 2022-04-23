@@ -15,8 +15,9 @@ class NoticeResource extends JsonResource
     public function toArray($request): array
     {
         return [
-            'title'     => $this->title,
-            'content'   => $this->content
+            'title'           => $this->title,
+            'content'         => $this->content,
+            'renderedContent' => $this->rendered_content,
         ];
     }
 }

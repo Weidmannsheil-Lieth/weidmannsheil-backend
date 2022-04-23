@@ -2,8 +2,8 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class News extends Model
 {
@@ -13,4 +13,16 @@ class News extends Model
         'content',
         'image_url'
     ];
+
+    protected $appends = [
+        'rendered_content'
+    ];
+
+    /**
+     * @return string
+     */
+    public function getRenderedContentAttribute(): string
+    {
+        return Str::markdown($this->content);
+    }
 }
