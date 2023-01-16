@@ -17,7 +17,6 @@ class NoticeResource extends JsonResource
         return [
             'title'           => $this->title,
             'content'         => $this->content,
-            'renderedContent' => $this->rendered_content,
         ];
     }
 }

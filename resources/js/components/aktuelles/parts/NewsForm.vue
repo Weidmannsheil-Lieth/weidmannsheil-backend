@@ -32,10 +32,10 @@
                     />
                 </v-col>
             </v-row>
-            <v-textarea
+
+            <HtmlEditor
                 v-model="news.content"
-                label="Inhalt"
-                rows="8"
+                class="mb-4"
             />
         </v-col>
     </v-row>
@@ -43,10 +43,12 @@
 
 <script>
 import NewsImagePicker from './NewsImagePicker';
+import HtmlEditor from "../../global/HtmlEditor.vue";
 
 export default {
     components: {
-        NewsImagePicker
+        NewsImagePicker,
+        HtmlEditor
     },
     props: {
         value: {

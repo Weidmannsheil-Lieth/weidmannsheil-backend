@@ -13,16 +13,4 @@ class News extends Model
         'content',
         'image_url'
     ];
-
-    protected $appends = [
-        'rendered_content'
-    ];
-
-    /**
-     * @return string
-     */
-    public function getRenderedContentAttribute(): string
-    {
-        return Str::markdown($this->content);
-    }
 }

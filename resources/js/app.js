@@ -26,6 +26,7 @@ Chartkick.options = {
         '#e72582',
     ]
 };
+
 Vue.use(Chartkick.use(Chart));
 Vue.use(VueTheMask);
 

@@ -12,16 +12,4 @@ class Notice extends Model
         'title',
         'content'
     ];
-
-    protected $appends = [
-        'rendered_content'
-    ];
-
-    /**
-     * @return string
-     */
-    public function getRenderedContentAttribute(): string
-    {
-        return Str::markdown($this->content);
-    }
 }

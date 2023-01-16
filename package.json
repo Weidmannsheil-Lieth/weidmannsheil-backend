@@ -21,6 +21,8 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^35.4.0",
+        "@ckeditor/ckeditor5-vue2": "^3.0.1",
         "@fortawesome/fontawesome-free": "^5.15.2",
         "chart.js": "^2.9.4",
         "dayjs": "^1.10.4",

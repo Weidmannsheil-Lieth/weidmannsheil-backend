@@ -17,17 +17,23 @@
                     />
                 </v-col>
             </v-row>
-            <v-textarea
+
+            <HtmlEditor
                 v-model="notice.content"
-                label="Inhalt"
-                rows="8"
+                class="mb-4"
             />
         </v-col>
     </v-row>
 </template>
 
 <script>
+import HtmlEditor from "../../global/HtmlEditor.vue";
+
 export default {
+    components: {
+        HtmlEditor
+    },
+
     props: {
         value: {
             type: Object,
